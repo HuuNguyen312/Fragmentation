@@ -23,11 +23,11 @@ task clean(type: Delete) {
 }
 
 ext {
-    compileSdkVersion = 29
-    minSdkVersion = 14
+    compileSdkVersion = 28
+    minSdkVersion = 21
     targetSdkVersion = compileSdkVersion
 
-    appCompatVersion = "1.2.0-rc01"
+    appCompatVersion = "1.1.0"
 
 //    userOrg = "jantxue"
 //    groupId = "me.xuexuan"
